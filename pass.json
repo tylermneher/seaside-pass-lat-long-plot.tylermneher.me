@@ -1,0 +1,95 @@
+{
+  "formatVersion": 1,
+  "passTypeIdentifier": "pass.org.seasideparknj.beachcontrol.2023",
+  "serialNumber": "195345",
+  "teamIdentifier": "PRH8B2NRNT",
+  "locations": [
+    {
+      "longitude": -74.071782,
+      "latitude": 39.93623
+    },
+    {
+      "longitude": -74.072201,
+      "latitude": 39.934511
+    },
+    {
+      "longitude": -74.072619,
+      "latitude": 39.932784
+    },
+    {
+      "longitude": -74.073048,
+      "latitude": 39.93113
+    },
+    {
+      "longitude": -74.073467,
+      "latitude": 39.92946
+    },
+    {
+      "longitude": -74.073885,
+      "latitude": 39.927757
+    },
+    {
+      "longitude": -74.074282,
+      "latitude": 39.926045
+    },
+    {
+      "longitude": -74.07469,
+      "latitude": 39.924326
+    },
+    {
+      "longitude": -74.075119,
+      "latitude": 39.922614
+    },
+    {
+      "longitude": -74.075537,
+      "latitude": 39.920903
+    }
+  ],
+  "barcode": {
+    "message": "G/huXLB+5uqhPhIMWSO6NA==",
+    "format": "PKBarcodeFormatQR",
+    "messageEncoding": "iso-8859-1"
+  },
+  "organizationName": "Borough of SeasidePark, New Jersey",
+  "description": "Beach Control Order Reciept",
+  "logoText": "Order Reciept",
+  "foregroundColor": "rgb(255, 255, 255)",
+  "backgroundColor": "rgb(9, 168, 250)",
+  "labelColor": "rgb(255, 238, 0)",
+  "generic": {
+    "headerFields": [
+      {
+        "key": "orderId",
+        "label": "Order #",
+        "value": "195345",
+        "textAlignment": "PKTextAlignmentRight"
+      }
+    ],
+    "primaryFields": [
+      {
+        "key": "orderTotal",
+        "label": "Order Total",
+        "value": "$170.00"
+      }
+    ],
+    "secondaryFields": [
+      {
+        "key": "lineItems",
+        "label": "Beach Badges",
+        "value": "Seasonal (2), Senior (2)"
+      }
+    ],
+    "backFields": [
+      {
+        "key": "instructions",
+        "label": "Pickup Instructions",
+        "value": "Present this pass and a valid ID to the cashier to pick up your order.\n\nFor locations, hours of operation and other information visit the Beach Control web page: https://www.seasideparknj.org/offices-departments/beach-control/"
+      },
+      {
+        "key": "customerService",
+        "label": "Customer Service",
+        "value": "For questions regarding your order call 732-793-3700 (Mon​-​Fri 8 A​​M - 4 P​M EST)"
+      }
+    ]
+  }
+}
